@@ -27,5 +27,3 @@ http://localhost にアクセスしlaravelページが表示されるか確認
 - phpadmin とデータベースの確認を行う
 
 http://localhost:8080 にアクセスし、phpmyadminが立ち上がりDB内に2つのテーブルが作成されているか確認
-
-
