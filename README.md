@@ -13,8 +13,8 @@ composer create-project --prefer-dist laravel/laravel をインストールす�
 ``` docker-compose up -d --build ```
 
 ### laravel-project の作成
-``` docker-compose exec php bash ```
-``` composer create-project --prefer-dist laravel/laravel=好きなバージョン ```
+- ``` docker-compose exec php bash ```
+- ``` composer create-project --prefer-dist laravel/laravel=好きなバージョン ```
 
 ### nginxのdefault.conf を下記に設定する
 
