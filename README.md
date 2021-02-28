@@ -16,8 +16,30 @@ composer create-project --prefer-dist laravel/laravel をインストールす�
 ``` docker-compose exec php bash ```
 ``` composer create-project --prefer-dist laravel/laravel=好きなバージョン ```
 
+## 映らない場合に
+
+nginxのdefault.conf を下記に設定する
+laravelは、プロジェクト名を入れる
+
+```
+server {
+  listen 80;
+    index index.php index.html;
+    root /var/www/laravel/public/;
+
+  location / {
+    root /var/www/laravel/public;
+    index  index.html index.php;
+    try_files $uri $uri/ /index.php$query_string;
+    }
+
+```
+
 ## local環境の確認
 http://localhost にアクセスしlaravelページが表示されるか確認
+
+https://qiita.com/A-Kira/items/1c55ef689c0f91420e81
+https://qiita.com/rope19181/items/10da72374839630af83b
 
 ## databaseの確認
 
@@ -27,3 +49,5 @@ http://localhost にアクセスしlaravelページが表示されるか確認
 ## phpadmin とデータベースの確認を行う
 
 http://localhost:8080 にアクセスし、phpmyadminが立ち上がりDB内に2つのテーブルが作成されているか確認
+
+
