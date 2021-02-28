@@ -37,8 +37,6 @@ server {
 ### local環境の確認
 http://localhost にアクセスしlaravelページが表示されるか確認
 
-https://qiita.com/A-Kira/items/1c55ef689c0f91420e81
-https://qiita.com/rope19181/items/10da72374839630af83b
 
 ### databaseの確認
 
