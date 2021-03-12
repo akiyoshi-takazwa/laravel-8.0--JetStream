@@ -25,8 +25,25 @@
       <change beforePath="$PROJECT_DIR$/docker/db/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/db/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/db/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/LaravelJetStream/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/LaravelJetStream/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614428551880</updated>
       <workItem from="1614428553691" duration="2626000" />
-      <workItem from="1615507430838" duration="1391000" />
+      <workItem from="1615507430838" duration="5492000" />
     </task>
     <servers />
   </component>

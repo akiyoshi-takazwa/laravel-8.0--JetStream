@@ -5,6 +5,11 @@ RUN apt-get update \
     && apt-get install -y zlib1g-dev mariadb-client vim libzip-dev \
     && docker-php-ext-install zip pdo_mysql
 
+# Install Node.js 12
+RUN apt install -y npm \
+    && npm install n -g \
+    && n 12
+
 #Composer install
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 RUN php composer-setup.php
